@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29599" started-at="2023-05-28T15:53:13 GST" finished-at="2023-05-28T15:53:42 GST">
+    <groups>
+      <group name="errorvalidation">
+        <method signature="ErrorValidation.errorValidate()[pri:0, instance:LearnFramework2.tests.ErrorValidation@7adda9cc]" name="errorValidate" class="LearnFramework2.tests.ErrorValidation"/>
+      </group> <!-- errorvalidation -->
+    </groups>
+    <test name="Test" duration-ms="29599" started-at="2023-05-28T15:53:13 GST" finished-at="2023-05-28T15:53:42 GST">
+      <class name="LearnFramework2.tests.Ecommerce">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:LearnFramework2.tests.Ecommerce@769f71a9]" name="launchApplication" is-config="true" duration-ms="4446" started-at="2023-05-28T15:53:22 GST" finished-at="2023-05-28T15:53:27 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitOrder()[pri:0, instance:LearnFramework2.tests.Ecommerce@769f71a9]" name="submitOrder" duration-ms="10308" started-at="2023-05-28T15:53:27 GST" finished-at="2023-05-28T15:53:37 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:LearnFramework2.tests.Ecommerce@769f71a9]" name="closeDriver" is-config="true" duration-ms="21" started-at="2023-05-28T15:53:37 GST" finished-at="2023-05-28T15:53:37 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:LearnFramework2.tests.Ecommerce@769f71a9]" name="launchApplication" is-config="true" duration-ms="4486" started-at="2023-05-28T15:53:37 GST" finished-at="2023-05-28T15:53:42 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="validateOrdersPage()[pri:0, instance:LearnFramework2.tests.Ecommerce@769f71a9]" name="validateOrdersPage" duration-ms="750" started-at="2023-05-28T15:53:42 GST" depends-on-methods="LearnFramework2.tests.Ecommerce.submitOrder" finished-at="2023-05-28T15:53:42 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrdersPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:LearnFramework2.tests.Ecommerce@769f71a9]" name="closeDriver" is-config="true" duration-ms="21" started-at="2023-05-28T15:53:42 GST" finished-at="2023-05-28T15:53:42 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- LearnFramework2.tests.Ecommerce -->
+      <class name="LearnFramework2.tests.ErrorValidation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:LearnFramework2.tests.ErrorValidation@7adda9cc]" name="launchApplication" is-config="true" duration-ms="8528" started-at="2023-05-28T15:53:13 GST" finished-at="2023-05-28T15:53:21 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="errorValidate()[pri:0, instance:LearnFramework2.tests.ErrorValidation@7adda9cc]" name="errorValidate" duration-ms="977" started-at="2023-05-28T15:53:21 GST" finished-at="2023-05-28T15:53:22 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidate -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:LearnFramework2.tests.ErrorValidation@7adda9cc]" name="closeDriver" is-config="true" duration-ms="25" started-at="2023-05-28T15:53:22 GST" finished-at="2023-05-28T15:53:22 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- LearnFramework2.tests.ErrorValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
